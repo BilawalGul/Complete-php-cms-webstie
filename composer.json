@@ -1,0 +1,16 @@
+{
+    "name": "bilaw/its-main",
+    "require": {
+        "phpmailer/phpmailer": "^6.0",
+        "pusher/pusher-php-server": "^3.2"
+    },
+    "require-dev": {
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Bilawal Gul",
+            "email": "bilawalawan747@gmail.com"
+        }
+    ]
+}

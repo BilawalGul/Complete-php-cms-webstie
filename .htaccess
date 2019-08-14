@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^post/([0-9]+)[^/]*/?$ post.php?id=$1 [QSA,L]
+
+# Deny access to everything by default
+Order Deny,Allow
+deny from all
+
+# Allow access to html files
+<Files *.>
+    allow from all
+</Files>
+
+# Deny access to sub directory
+<Files subdirectory/*>
+    deny from all   
+</Files>
+
+errorDocument 400 http://localhost/itsmain/404
+errorDocument 401 http://localhost/itsmain/404
+errorDocument 404 http://localhost/itsmain/404
+errorDocument 500 http://localhost/itsmain/404
+
+
+
