@@ -5,12 +5,12 @@ social media system.
 
 ## Install xampp 
 
-	first you need to install the latest xampp versio grater then **7.1**
-	Here the [link](https://www.apachefriends.org/download.html)
+first you need to install the latest xampp versio grater then **7.1**
+Here the [link](https://www.apachefriends.org/download.html)
 
 ## Save file 
 
-	then you need to add the complete project file inside htdocs folder which is inside the xammp folder 
+then you need to add the complete project file inside htdocs folder which is inside the xammp folder 
 
 ## ADD database 
 there in (SQL) DATABASE file in the root directory you need to create the database with name of 
@@ -22,11 +22,11 @@ and then import the **sql** file
 
 ## Start Xampp
 	
-	then you need open xampp and start the **Apache** and **MySQL**
+then you need open xampp and start the **Apache** and **MySQL**
 
 ## Last Step
 	
-	you need open your browser and the url
+you need open your browser and the url
 
 ```bash
 localhost/nameOfFileOfproject
